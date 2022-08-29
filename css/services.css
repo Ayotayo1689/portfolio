@@ -1,0 +1,250 @@
+.main{
+  margin: 6rem 0rem 0rem 3rem;
+}
+
+.card-container {
+    height: 150px;
+    perspective: 600px;
+    position: relative;
+    width: 150px;
+    display: inline-block;
+    margin-top: -5rem;
+  }
+
+  .mb-3.h4{font-size: 24px;}
+
+  .flipcard {
+    border: 3px solid;
+    transform: rotate(45deg);
+    font-size: 13px;
+    height: 65%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 65%;
+    /* background-color: rgb(59, 59, 59);
+    color: white; */
+    background-color: transparent;
+  }
+  .flipcard:hover {
+    transform: rotateY(180deg) rotate(45deg);
+    ;
+  }
+
+  .front, .back {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-top: .5rem;
+  }
+  
+  .card .front {
+    z-index: 2;
+    transform:  rotateY(0deg) rotate(315deg);
+  }
+
+  .card .back {
+    transform: rotateY(180deg) rotate(45deg);
+  }
+           
+  .one{
+    margin: 2rem 0 0 -1rem;
+  }
+
+  .two{   
+    margin: 1.2rem 0 0 3.5rem;
+    }
+
+  .three{    
+    margin: -4rem 0 0 -5.5rem;
+  }
+  
+  .four{    
+    margin: -4.8rem 0 0 -1rem;
+  }
+
+
+@media screen and (min-width: 390px) {
+    .main{
+      margin: 6rem 2rem 0rem 5rem;
+    }
+  }
+
+@media screen and (min-width: 500px){
+  .main{
+    margin: 12rem 3rem 0 4rem;
+  }
+
+  .one{
+    margin: -4rem 0 0 4.7rem;
+  }
+  .two{   
+    margin: .6rem 0 0 -.2rem;
+    }
+  .three{    
+    margin: -4.50rem 0 0 .2rem;
+  }
+  .four{    
+    margin: 0rem 0rem 0 -4.70rem;
+  }
+} 
+
+  @media screen and (min-width: 640px){
+    .main{
+      margin: 10rem 0 8rem 11rem;
+      float: right;
+    }
+
+    .one{
+      margin: -1rem 0 0 4.7rem;
+    }
+    .two{   
+      margin: 3.6rem 0 0 -.2rem;
+      }
+    .three{    
+      margin: 3.5rem 0 0 -19.5rem;
+    }
+    .four{    
+      margin: 3rem 0rem 0 -5rem;
+    }
+  }
+  
+@media screen and (min-width: 730px) {
+  .main{
+    margin: 8rem 2rem 8rem 12rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .main{
+      margin: 8rem 0rem 8rem 13rem;
+    }
+
+    .card{font-size: 13px;}
+    .card .front{
+      padding-top: .5rem;
+    }
+      .card .back{
+        padding-top: .7rem;
+      }
+
+    .one{
+      margin: -.7rem 0 0 4.7rem;
+    }
+    .two{   
+      margin: 4rem 0 0 -.3rem;
+      }
+    .three{    
+      margin: 4rem 0 0 -19.2rem;
+    }
+    .four{    
+      margin: 3.5rem 0rem 0 -5rem;
+    }
+  }
+
+@media screen and (min-width: 812px){
+    .main{
+      margin: 8rem 3rem 10rem 20rem;
+      float: right;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .main{
+      margin: 12rem 10rem 0rem 0rem;
+    }
+
+    .services{
+      margin-bottom: 36rem;
+    }
+
+    .card.flipcard{
+      height: 100%;
+      width: 100%;
+      font-size: 20px;
+    }
+      .card.side{
+            padding-top: 1rem;
+          }
+            .card.back{
+              padding-top: 1rem;
+            }
+    
+
+    .one{
+      margin: 3rem 0 0 4.7rem;
+    }
+  
+    .two{   
+  
+      margin: 10rem 0 0 2.1rem;
+      }
+  
+    .three{    
+      margin: -4rem 0 0 -7.6rem;
+    }
+    
+    .four{    
+      margin: 3rem 0 0 -10.2rem;
+    }
+
+    div.stack{
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+  }
+
+@media screen and (min-width: 1025px) {
+  .main{
+    margin: 12rem 17rem 0rem 0rem;
+  }
+
+  .services{
+    margin-bottom: 36rem;
+  }
+
+  .card.flipcard{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+  }
+    .card.side{
+          padding-top: 1rem;
+        }
+          .card.back{
+            padding-top: 1rem;
+          }
+  
+
+  .one{
+    margin: 3rem 0 0 4.7rem;
+  }
+
+  .two{   
+
+    margin: 10rem 0 0 2.1rem;
+    }
+
+  .three{    
+    margin: -4rem 0 0 -7.6rem;
+  }
+  
+  .four{    
+    margin: 3rem 0 0 -10.2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main{
+    margin: 12rem 23rem 0rem 0rem;
+  }
+}
+
+@media screen and (min-width:2560px) {
+    .main{
+      margin: 12rem 59rem 0rem 0rem;
+    }
+}

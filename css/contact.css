@@ -1,0 +1,30 @@
+input.formone{
+    height: 50px;
+}
+    textarea.formtwo{
+        height: 10rem;
+    }
+
+hr.connect{
+        background-color: gold;
+        margin-top: 2rem;
+    }
+        .connect{
+            margin: 5rem 0;
+        }
+
+        a:hover{
+            color: rgb(185, 185, 185);
+          }
+
+.h4.text-warning{font-size: 16px;}
+
+span.me{
+  color: rgb(254,193,7);
+}
+
+/* @media (prefers-color-scheme: light) { 
+.form-control{
+    border-color: #30303080;
+}
+} */
